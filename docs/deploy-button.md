@@ -9,10 +9,10 @@
 先在应用仓库的目标分支中准备 `.qiniu/deploy.yaml`，再添加按钮：
 
 ```markdown
-[![Deploy on Qiniu](https://raw.githubusercontent.com/qiniu/deployment/main/assets/button.svg)](https://YOUR_PORTAL_HOST/las/deployments/new?repo=OWNER%2FREPOSITORY&source=branch&ref=main)
+[![Deploy on Qiniu](https://raw.githubusercontent.com/DROWNING2003/fork.deployment/drowning/deployment-schema-v1/assets/button.svg)](https://portal.qiniu.com/las/deployments/new?repo=OWNER%2FREPOSITORY&source=branch&ref=main)
 ```
 
-- 将 `YOUR_PORTAL_HOST` 替换为已开放一键部署功能的 LAS 控制台域名。
+- 部署链接使用七牛控制台域名 `portal.qiniu.com`。
 - 将 `OWNER%2FREPOSITORY` 替换为公开 GitHub 仓库，例如 `qiniu%2Fdeployment`。
 - 将 `ref` 替换为需要部署的分支名。URL 参数值需要进行 URL 编码，例如 `example/vite` 写为 `example%2Fvite`。
 
@@ -36,9 +36,9 @@
 在 Admin 中发布模板后，可以使用模板详情链接：
 
 ```markdown
-[![Deploy on Qiniu](https://raw.githubusercontent.com/qiniu/deployment/main/assets/button.svg)](https://YOUR_PORTAL_HOST/las/deployments/templates/TEMPLATE_ID)
+[![Deploy on Qiniu](https://raw.githubusercontent.com/DROWNING2003/fork.deployment/drowning/deployment-schema-v1/assets/button.svg)](https://portal.qiniu.com/las/deployments/templates/TEMPLATE_ID)
 ```
 
-将 `YOUR_PORTAL_HOST` 替换为 LAS 控制台域名，将 `TEMPLATE_ID` 替换为已发布模板的 ID。用户进入模板详情页后选择部署参数并发起部署。
+将 `TEMPLATE_ID` 替换为已发布模板的 ID。用户进入模板详情页后选择部署参数并发起部署。
 
-公共按钮图片地址在 `assets/button.svg` 合入 `qiniu/deployment` 的 `main` 分支后生效。
+按钮图片目前引用本 fork 的 `drowning/deployment-schema-v1` 分支。合入 `qiniu/deployment` 的 `main` 分支后，可将图片地址更新为 `https://raw.githubusercontent.com/qiniu/deployment/main/assets/button.svg`。

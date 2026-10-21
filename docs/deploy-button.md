@@ -21,8 +21,8 @@
 | 参数 | 说明 | 示例 |
 | --- | --- | --- |
 | `repo` | GitHub 仓库，格式为 `owner/repository` | `qiniu%2Fdeployment` |
-| `source` | 引用类型：`branch`、`tag` 或 `commit` | `branch` |
-| `ref` | 分支名、Tag 或完整 Commit SHA，与 `source` 对应 | `example%2Fvite` |
+| `source` | 引用类型：`branch` 或 `tag` | `branch` |
+| `ref` | 分支名或 Tag，与 `source` 对应 | `example%2Fvite` |
 | `config` | 配置文件在仓库内的相对路径；省略时使用 `.qiniu/deploy.yaml` | `.qiniu%2Fdeploy.yaml` |
 
 例如，部署本仓库的 Vite 示例时，链接路径为：

@@ -36,8 +36,8 @@ docs/
 
 | 分支 | 内容 | 部署 |
 | --- | --- | --- |
-| [`example/vite`](https://github.com/qiniu/deployment/tree/example/vite) | Vite 前端应用及部署配置 | [![Deploy on Qiniu](https://raw.githubusercontent.com/DROWNING2003/fork.deployment/drowning/deployment-schema-v1/assets/button.svg)](https://portal.qiniu.com/las/deployments/new?repo=qiniu%2Fdeployment&source=branch&ref=example%2Fvite) |
-| [`example/go`](https://github.com/qiniu/deployment/tree/example/go) | Go HTTP 服务及部署配置 | [![Deploy on Qiniu](https://raw.githubusercontent.com/DROWNING2003/fork.deployment/drowning/deployment-schema-v1/assets/button.svg)](https://portal.qiniu.com/las/deployments/new?repo=qiniu%2Fdeployment&source=branch&ref=example%2Fgo) |
+| [`example/vite`](https://github.com/qiniu/deployment/tree/example/vite) | Vite 前端应用及部署配置 | [![Deploy on Qiniu](./assets/button.svg)](https://portal.qiniu.com/las/deployments/new?repo=qiniu%2Fdeployment&source=branch&ref=example%2Fvite) |
+| [`example/go`](https://github.com/qiniu/deployment/tree/example/go) | Go HTTP 服务及部署配置 | [![Deploy on Qiniu](./assets/button.svg)](https://portal.qiniu.com/las/deployments/new?repo=qiniu%2Fdeployment&source=branch&ref=example%2Fgo) |
 
 选择示例分支时，应用代码和 `.qiniu/deploy.yaml` 均位于该分支中；本地运行方式见各分支的 README。
 

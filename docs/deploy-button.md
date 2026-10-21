@@ -9,7 +9,7 @@
 先在应用仓库的目标分支中准备 `.qiniu/deploy.yaml`，再添加按钮：
 
 ```markdown
-[![Deploy on Qiniu](https://raw.githubusercontent.com/DROWNING2003/fork.deployment/drowning/deployment-schema-v1/assets/button.svg)](https://portal.qiniu.com/las/deployments/new?repo=OWNER%2FREPOSITORY&source=branch&ref=main)
+[![Deploy on Qiniu](https://raw.githubusercontent.com/qiniu/deployment/main/assets/button.svg)](https://portal.qiniu.com/las/deployments/new?repo=OWNER%2FREPOSITORY&source=branch&ref=main)
 ```
 
 - 部署链接使用七牛控制台域名 `portal.qiniu.com`。
@@ -36,9 +36,9 @@
 在 Admin 中发布模板后，可以使用模板详情链接：
 
 ```markdown
-[![Deploy on Qiniu](https://raw.githubusercontent.com/DROWNING2003/fork.deployment/drowning/deployment-schema-v1/assets/button.svg)](https://portal.qiniu.com/las/deployments/templates/TEMPLATE_ID)
+[![Deploy on Qiniu](https://raw.githubusercontent.com/qiniu/deployment/main/assets/button.svg)](https://portal.qiniu.com/las/deployments/templates/TEMPLATE_ID)
 ```
 
 将 `TEMPLATE_ID` 替换为已发布模板的 ID。用户进入模板详情页后选择部署参数并发起部署。
 
-按钮图片目前引用本 fork 的 `drowning/deployment-schema-v1` 分支。合入 `qiniu/deployment` 的 `main` 分支后，可将图片地址更新为 `https://raw.githubusercontent.com/qiniu/deployment/main/assets/button.svg`。
+以上示例使用主仓库的公共图片地址，在 `assets/button.svg` 合入 `qiniu/deployment` 的 `main` 分支后生效。仓库内的图片预览使用相对路径，在 fork 和主仓库中均可显示。
